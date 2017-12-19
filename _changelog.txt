@@ -1,0 +1,18 @@
+*** WEBFUNC Change Log ***
+
+10-06-2013 v0132
+* wf_multiform : campo extra sottoponibile ad eval
+* introdotta gestione aziende RICHIEDE UPDATE DB (_db_update.sql)
+
+
+21-06-2013 v0133
+* wf_security : corretto sistema di controllo variabili get e post
+* wf_error : effettuata visualizzazione prima dell'invio mail (se fallisce si inchioda)
+
+21-02-2014 v0140
+* wf_multinput : revisione per la gestione multipla (aggiunti parametri e modificato URL)
+
+11-04-2017
+* revisione complessiva per adattamento a AdminLte e MySqlI
+
+

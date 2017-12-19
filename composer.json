@@ -1,0 +1,12 @@
+{
+    "name": "lotoservizi/webfunc",
+    "authors": [
+        {
+            "name": "giovanni",
+            "email": "giovanni.lorenzini@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    }
+}

@@ -1,0 +1,36 @@
+xxxbody {font-family:  Meiryo, sans-serif;}
+ul#menu1 {}
+ul#menu2 { clear:both; width:160px;, margin-top:10px; }
+li.potato-menu-item {
+	width:90px;
+	font-size:10px;
+	background-color:#487e02;
+	padding-left:1px;
+}
+.potato-menu-vertical {
+	width:90px;
+}
+
+li.potato-menu-item a {
+	X_padding:5px 20px 5px 12px;
+	x_padding:0px 20px 0px 12px;
+	color: #fff;
+	X_color: #FA0;
+;
+}
+li.potato-menu-hover {
+	background-color: #666;
+}
+.potato-menu-has-vertical {
+	background: transparent url(arrow_down.gif) right no-repeat;
+	color: #fff;
+	x_color: #FA0;
+}
+.potato-menu-has-holizontal {
+	font-size:2px;
+	background: transparent url(arrow_right.gif) right no-repeat;
+}
+li.potato-menu-item ul {
+	border-top:1px solid #444;
+	border-left:1px solid #444;
+}

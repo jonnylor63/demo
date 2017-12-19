@@ -1,0 +1,182 @@
+/*jQuery MegaMenu Plugin
+  Author: Devadatta Sahoo
+  Author URI: http://www.geektantra.com */
+.MegaMenu ul {
+	text-align: left;
+	margin: 25px;
+	font-size: 16px;
+	list-style-type: square;
+}
+.MegaMenu {
+   xbackground: #254156;
+   padding: 6px 7px 0px;
+}
+.MegaMenu a.MegaMenuLink:link, .MegaMenu a.MegaMenuLink:visited {
+   display: inline-block;
+   padding: 5px 8px 9px;
+   xmargin: 1px 2px 0px 1px;
+   color: #162A00;
+   text-decoration: none;
+   font-size: 14px;
+	 font-weight: bold;
+   outline: none;
+   z-index: 1000;
+
+	 background: #bbc3ff;
+	 border: 2px solid #0090ff;
+	 border-bottom: none;
+	 -moz-border-radius: 7px 7px 0 0;
+	 -webkit-border-top-left-radius: 7px;
+	 -webkit-border-top-right-radius: 7px;
+	 border-radius: 7px 7px 0 0;
+	 xmargin-right: -2px;
+	 border-top-left-radius: 7px 7px;
+	 border-top-right-radius: 7px 7px;
+	 border-bottom-right-radius: 0px 0px;
+	 border-bottom-left-radius: 0px 0px;
+}
+.MegaMenu a.MegaMenuLinkOff:link, .MegaMenu a.MegaMenuLinkOff:visited {
+   display: inline-block;
+   padding: 5px 8px 5px;
+   text-decoration: none;
+   font-size: 15px;
+   outline: none;
+   z-index: 1000;
+
+	 background: #7F7F7F;
+	 border: 2px solid #AEE239;
+	 border-bottom: none;
+	 color: #fff;
+	 -moz-border-radius: 7px 7px 0 0;
+	 -webkit-border-top-left-radius: 7px;
+	 -webkit-border-top-right-radius: 7px;
+	 border-radius: 7px 7px 0 0;
+	 xmargin-right: -2px;
+	 border-top-left-radius: 7px 7px;
+	 border-top-right-radius: 7px 7px;
+	 border-bottom-right-radius: 0px 0px;
+	 border-bottom-left-radius: 0px 0px;
+	 
+}
+.MegaMenu a.MegaMenuLinkOff:hover {
+   background: #FFF;
+   color: #555;
+/*   margin: 0px;*/
+   padding: 4px 18px 4px 17px;
+   border: 1px solid #9A9A9A;
+   padding-right: 21px;
+}
+.MegaMenu a.MegaMenuLinkActive:link, .MegaMenu a.MegaMenuLinkActive:visited {
+   background: #FFF;
+   color: #000;
+   margin: 0px;
+	 border: 2px solid #0090ff;
+	 border-bottom: none;
+	 -moz-border-radius: 7px 7px 0 0;
+	 -webkit-border-top-left-radius: 7px;
+	 -webkit-border-top-right-radius: 7px;
+	 border-radius: 7px 7px 0 0;
+	 xmargin-right: -2px;
+	 border-top-left-radius: 7px 7px;
+	 border-top-right-radius: 7px 7px;
+	 border-bottom-right-radius: 0px 0px;
+	 border-bottom-left-radius: 0px 0px;
+
+}
+.MegaMenu .MegaMenuContent{
+   display: none;
+}
+#MegaMenuContent, #MegaMenuContentShadow {
+   background: #FFF; 
+   border: 1px solid #9A9A9A;
+   border-top: none;
+   padding: 10px 10px;
+   margin-left: 5px;
+   position: absolute;
+   z-index: 10;
+}
+#MegaMenuContentShadow {
+   background: #111;
+   margin-left: 8px;
+   margin-top: 4px;
+   z-index: 9;
+   opacity: 0.5;
+   -moz-opacity: 0.5;
+   filter:alpha(opacity=50);
+}
+.MegaMenuTable h1 {
+	font-size: 12px;
+	font-weight: normal;
+	padding: 0;
+	border: 0;
+}
+.MegaMenuTable {
+  border-collapse: collapse;
+  xborder: 1px solid #FFF;
+}
+.MegaMenuTable th {
+  text-align: left;
+  padding: 5px 10px;
+  font-size: 13px;
+}
+.MegaMenuTable .MegaMenuHead {
+  padding: 0px 5px 5px;
+  border-bottom: 5px solid #EEE;
+}
+.MegaMenuTable td {
+  vertical-align: top;
+	xbackground-color: #EEE;
+	xborder-left: 2px solid white;
+}
+.MegaMenuTable td.LastCell {
+  border: none;
+}
+.MegaMenuSep {
+	border-left: 2px solid #DFDFDF;
+}
+
+.MenuFoot div {
+  border-top: 1px solid #CCC;
+  margin: 10px 10px 5px 10px; 
+  font-size: 10px;
+  color: #555;
+  padding: 10px 0px 0px 0px;
+}
+.MenuFoot h2 {
+  padding: 0px 0px 3px 0px;
+  margin: 0px;
+  font-size: 14px;
+  color: #000;
+}
+.MegaMenuTable {
+  cursor: default;
+}
+.MegaMenuTable a {
+  cursor: pointer;
+}
+.MegaMenuTable .MegaMenuLists {
+  margin: 0px 15px;
+  padding: 0px;
+  color: #BBB;
+  list-style-type: square;
+  list-style-position: inside;
+}
+.MegaMenuLists li {
+  margin: 2px 0px 2px;
+  xfont-weight: bold;
+  font-size: 12px;
+}
+/*Non IE CSS Starts*/
+html>body .MegaMenu a.MegaMenuLink:link,html>body .MegaMenu a.MegaMenuLink:visited {
+   position: relative;
+}
+html>body #MegaMenuContent, html>body #MegaMenuContentShadow {
+	border: 1px solid #d6d7d7; 
+	-moz-border-radius: 7px; 
+	-webkit-border-radius: 7px; 
+	border-radius: 7px; 
+	background: url(menu-bg.png) repeat-x center top #edf2f4; 
+	-moz-border-radius-topleft: 0; 
+	-webkit-border-top-left-radius: 0; 
+	margin-left: 11px;
+}
