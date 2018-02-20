@@ -8,6 +8,7 @@
     "require": {
         "php": ">=5.6",
         "phpmailer/phpmailer": "~6.0",
-        "setasign/fpdi-fpdf": "^2.0"
+        "setasign/fpdi-fpdf": "^2.0",
+        "dompdf/dompdf": "^0.8.2"
     }
 }
