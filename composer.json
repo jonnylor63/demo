@@ -10,5 +10,7 @@
         "phpmailer/phpmailer": "~6.0",
         "setasign/fpdi-fpdf": "^2.0",
         "dompdf/dompdf": "^0.8.2"
-    }
+    },
+     "minimum-stability": "dev",
+    "prefer-stable": true
 }
