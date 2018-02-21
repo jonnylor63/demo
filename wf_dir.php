@@ -44,6 +44,3 @@ function wf_dir_list($ldir,$hdir,$host,$nchr,$deep) {
   }
 
 }
-
-
-?>

@@ -55,5 +55,4 @@ function wf_num2str($numero) {
     return "zero";  
   else  
     return  $risultato;  
-}  
-?>
+}

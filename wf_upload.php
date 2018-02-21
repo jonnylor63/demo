@@ -153,5 +153,3 @@ HTML;
 
   return $html;
 }
-
-?>

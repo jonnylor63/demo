@@ -15,5 +15,7 @@
 11-04-2017
 * revisione complessiva per adattamento a AdminLte e MySqlI
 
-
-e che cazzo
+21-02-2018
+* creazione di un repositories utilizzabile da composer
+* utilizzo di composer per classi dipendenti (es: phpmailer, Fpdi)
+- necessità di revisione generalizzata ed confronto con altre versioni

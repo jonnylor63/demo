@@ -1,4 +1,4 @@
-<?
+<?php
 /*************************************************
 ' function...: wf_calendar
 ' utilizzo...: gestione calendario
@@ -137,6 +137,3 @@ function wf_calendar($mese, $anno, $fSposta) {
   /* intestazione */
   return ($html);
 }
-
-
-?>

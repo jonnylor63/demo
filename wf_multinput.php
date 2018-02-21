@@ -1,4 +1,4 @@
-<?
+<?php
 /*************************************************
 ' function...: wf_mutimput
 ' utilizzo...: gestione tabellare

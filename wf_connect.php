@@ -1,4 +1,4 @@
-<?
+<?php
 /*************************************************
 ' Modulo.....: wf_connect
 ' utilizzo...: connessione al database

@@ -136,5 +136,3 @@ function wf_index_menu($page) {
 	$page = str_replace("%MAINMENU%" , $menu, $page);
 	return $page;
 }
-
-?>

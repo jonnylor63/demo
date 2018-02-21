@@ -1,4 +1,4 @@
-<?
+<?php
 /* ******** FROM TABELLARE ********
 * Parametri
 * $sqlid        generatore puntatore che identifica il rk (nella query potrà essere pintato grazie alla variabile $id ---> attenzione nome di variabile troppo generico

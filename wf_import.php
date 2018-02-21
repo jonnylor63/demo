@@ -252,4 +252,3 @@ function wf_import_csv_001($idaimpt, $filename=null) {
   
   return array("error" => false, "code" => "000", "descr" => "Tutto ok");
 }
-?>

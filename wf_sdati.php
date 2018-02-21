@@ -25,4 +25,3 @@ function wf_writesdati($par1, $par2) {
   $retval = true;
   return $retval;
 }
-?>

@@ -159,4 +159,3 @@ function wf_jlov($json, $name, $default=null, $view=null, $auto=null) {
   
 	return ($html);
 }
-?>

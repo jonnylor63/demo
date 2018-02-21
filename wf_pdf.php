@@ -85,4 +85,3 @@ function wf_pdf($sql, $acolonne, $title="", $fontsize=10, $rowsize=6, $orientame
 	$pdf->Output();
 	exit;
 }
-?>

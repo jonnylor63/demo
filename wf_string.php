@@ -27,5 +27,3 @@ function wf_ntoc($par1_num, $par2_ll) {
   }
   return ($retval);
 }
-
-?>
